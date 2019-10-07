@@ -1,0 +1,90 @@
+2019-10-07 13:04:00 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'batch_size': 1,
+ 'bottomheight': 400,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ReachingOct7\\Reaching_Parth95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'c:\\users\\ec265\\.conda\\envs\\dlc-windowscpu\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_ReachingOct7\\Documentation_data-Reaching_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pos_dist_thresh': 17,
+ 'project_path': 'C:\\Users\\ec265\\Desktop\\Parth\\DNN-Pose-Estimation\\Reaching-Parth-2019-10-07',
+ 'regularize': False,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\ec265\\Desktop\\Parth\\DNN-Pose-Estimation\\Reaching-Parth-2019-10-07\\dlc-models\\iteration-0\\ReachingOct7-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2019-10-07 13:04:19 iteration: 5 loss: 0.5685 lr: 0.005
+2019-10-07 13:04:22 iteration: 10 loss: 0.0515 lr: 0.005
+2019-10-07 13:04:24 iteration: 15 loss: 0.0601 lr: 0.005
+2019-10-07 13:04:27 iteration: 20 loss: 0.0456 lr: 0.005
+2019-10-07 13:04:29 iteration: 25 loss: 0.0380 lr: 0.005
+2019-10-07 13:04:31 iteration: 30 loss: 0.0249 lr: 0.005
+2019-10-07 13:04:35 iteration: 35 loss: 0.0295 lr: 0.005
+2019-10-07 13:04:37 iteration: 40 loss: 0.0239 lr: 0.005
+2019-10-07 13:04:40 iteration: 45 loss: 0.0238 lr: 0.005
+2019-10-07 13:04:43 iteration: 50 loss: 0.0236 lr: 0.005
+2019-10-07 13:04:46 iteration: 55 loss: 0.0214 lr: 0.005
+2019-10-07 13:04:49 iteration: 60 loss: 0.0221 lr: 0.005
+2019-10-07 13:04:52 iteration: 65 loss: 0.0144 lr: 0.005
+2019-10-07 13:04:55 iteration: 70 loss: 0.0151 lr: 0.005
+2019-10-07 13:04:57 iteration: 75 loss: 0.0147 lr: 0.005
+2019-10-07 13:05:00 iteration: 80 loss: 0.0106 lr: 0.005
+2019-10-07 13:05:02 iteration: 85 loss: 0.0125 lr: 0.005
+2019-10-07 13:05:06 iteration: 90 loss: 0.0120 lr: 0.005
+2019-10-07 13:05:08 iteration: 95 loss: 0.0117 lr: 0.005
+2019-10-07 13:05:11 iteration: 100 loss: 0.0137 lr: 0.005
+2019-10-07 13:05:14 iteration: 105 loss: 0.0154 lr: 0.005
+2019-10-07 13:05:17 iteration: 110 loss: 0.0101 lr: 0.005
+2019-10-07 13:05:19 iteration: 115 loss: 0.0109 lr: 0.005
+2019-10-07 13:05:23 iteration: 120 loss: 0.0094 lr: 0.005
+2019-10-07 13:05:25 iteration: 125 loss: 0.0136 lr: 0.005
+2019-10-07 13:05:28 iteration: 130 loss: 0.0111 lr: 0.005
+2019-10-07 13:05:31 iteration: 135 loss: 0.0111 lr: 0.005
+2019-10-07 13:05:34 iteration: 140 loss: 0.0136 lr: 0.005
+2019-10-07 13:05:38 iteration: 145 loss: 0.0147 lr: 0.005
+2019-10-07 13:05:41 iteration: 150 loss: 0.0122 lr: 0.005
+2019-10-07 13:05:44 iteration: 155 loss: 0.0097 lr: 0.005
+2019-10-07 13:05:47 iteration: 160 loss: 0.0085 lr: 0.005
+2019-10-07 13:05:50 iteration: 165 loss: 0.0081 lr: 0.005
+2019-10-07 13:05:52 iteration: 170 loss: 0.0096 lr: 0.005
+2019-10-07 13:05:55 iteration: 175 loss: 0.0079 lr: 0.005
+2019-10-07 13:05:58 iteration: 180 loss: 0.0098 lr: 0.005
+2019-10-07 13:06:01 iteration: 185 loss: 0.0089 lr: 0.005
+2019-10-07 13:06:04 iteration: 190 loss: 0.0101 lr: 0.005
