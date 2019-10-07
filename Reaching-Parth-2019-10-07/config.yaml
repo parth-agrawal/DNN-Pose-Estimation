@@ -1,13 +1,15 @@
 # Project definitions (do not edit)
 Task: Reaching
 scorer: Parth
-date: Oct4
+date: Oct7
 
 # Project path (change when moving around)
-project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Reaching-Parth-2019-10-04
+project_path: C:\Users\parth\Desktop\DNN-Pose-Estimation\Reaching-Parth-2019-10-07
 
 # Annotation data set configuration (and individual video cropping parameters)
-video_sets: {}
+video_sets:
+  C:\Users\parth\Desktop\DNN-Pose-Estimation\Videos\rat1.mp4:
+    crop: 0, 658, 0, 492
 bodyparts:
 - bodypart1
 - bodypart2

@@ -1,8 +1,12 @@
 import deeplabcut
 
-task = 'Reaching'
-experimenter = 'Parth'
+from IPython import get_ipython
 
-video = ["Videos/rat1.mp4"]
+path_config_file= "C:/Users/parth/desktop/DNN-Pose-Estimation/Reaching-Parth-2019-10-07/config.yaml"
 
-path_config_file=
+get_ipython().run_line_magic('matplotlib', 'tk')
+# exec(%matplotlib inline)
+
+deeplabcut.extract_frames(path_config_file)
+get_ipython().run_line_magic('gui', 'wx')
+deeplabcut.label_frames(path_config_file)
