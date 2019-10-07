@@ -4,7 +4,7 @@ scorer: Parth
 date: Oct7
 
 # Project path (change when moving around)
-project_path: C:\Users\parth\Desktop\DNN-Pose-Estimation\Reaching-Parth-2019-10-07
+project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Reaching-Parth-2019-10-07 #gitignore
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
