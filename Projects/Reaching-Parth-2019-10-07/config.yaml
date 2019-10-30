@@ -1,0 +1,54 @@
+# Project definitions (do not edit)
+Task: Reaching
+scorer: Parth
+date: Oct7
+
+# Project path (change when moving around)
+project_path: C:\Users\Parth\\Desktop\DNN-Pose-Estimation\Reaching-Parth-2019-10-07
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\parth\Desktop\DNN-Pose-Estimation\Videos\rat1.mp4: #gitignore
+    crop: 121, 516, 143, 412
+bodyparts:
+- finger1
+- finger2
+- finger3
+- finger4
+start: 0
+stop: 1
+numframes2pick: 20
+
+# Plotting configuration
+skeleton:
+- - finger1
+  - finger2
+- - finger3
+  - finger4
+skeleton_color: black
+pcutoff: 0.1
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet: 50
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
