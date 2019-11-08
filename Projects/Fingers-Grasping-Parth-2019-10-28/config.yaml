@@ -27,7 +27,7 @@ skeleton:
   - finger4
 skeleton_color: black
 pcutoff: 0.1
-dotsize: 12
+dotsize: 2
 alphavalue: 0.7
 colormap: jet
 
