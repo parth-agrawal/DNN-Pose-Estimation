@@ -3,11 +3,13 @@ all_joints:
 - - 1
 - - 2
 - - 3
+- - 4
 all_joints_names:
 - finger1
 - finger2
 - finger3
 - finger4
+- pellet
 bottomheight: 400
 crop: true
 cropratio: 0.4
@@ -38,9 +40,9 @@ multi_step:
 - - 0.001
   - 1030000
 net_type: resnet_50
-num_joints: 4
+num_joints: 5
 pos_dist_thresh: 17
-project_path: /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Fingers-Grasping-Parth-2019-10-28
+project_path: /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Fingers-Grasping-Parth-2019-10-28/
 rightwidth: 400
 save_iters: 50000
 scale_jitter_lo: 0.5
