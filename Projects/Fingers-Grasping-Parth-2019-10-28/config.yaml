@@ -11,7 +11,7 @@ video_sets:
   /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Videos: #gitignore
     crop: 69, 246, 81, 214
   /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Videos/rat9_front.mp4:
-    crop: 66, 232, 75, 214
+    crop: 0, 328, 0, 246
 bodyparts:
 - finger1
 - finger2
