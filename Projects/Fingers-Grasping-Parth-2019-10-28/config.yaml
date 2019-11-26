@@ -4,14 +4,14 @@ scorer: Parth
 date: Oct28
 
 # Project path (change when moving around)
-project_path: C:\Users\parth\Desktop\DNN-Pose-Estimation\Projects\Fingers-Grasping-Parth-2019-10-28
+project_path: /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Fingers-Grasping-Parth-2019-10-28/
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\parth\Desktop\DNN-Pose-Estimation\Projects\Videos: #gitignore
+  /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Videos: #gitignore
     crop: 69, 246, 81, 214
-  C:\Users\parth\Desktop\DNN-Pose-Estimation\Projects\Videos\rat9_front.mp4:
-    crop: 66, 232, 75, 214
+  /home/ubuntu/sahin-research/DNN-Pose-Estimation/Projects/Videos/rat9_front.mp4:
+    crop: 0, 328, 0, 246
 bodyparts:
 - finger1
 - finger2
@@ -37,7 +37,7 @@ colormap: jet
 # Training,Evaluation and Analysis configuration
 TrainingFraction:
 - 0.95
-iteration: 1
+iteration: 0
 resnet: 50
 snapshotindex: -1
 batch_size: 8
