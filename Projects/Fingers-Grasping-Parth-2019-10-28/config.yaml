@@ -37,7 +37,7 @@ colormap: jet
 # Training,Evaluation and Analysis configuration
 TrainingFraction:
 - 0.95
-iteration: 2
+iteration: 1
 resnet: 50
 snapshotindex: -1
 batch_size: 8
