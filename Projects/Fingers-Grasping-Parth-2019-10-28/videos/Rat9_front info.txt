@@ -1,6 +1,6 @@
 Prestim proper (minus invalid grab) starts at 1:44
 
-1:57s - 11722-11797 successful grab
+1:57s - 11722-11746 successful grab
 2m1s 12163-12211 successful grab
 2m 12s 13310-13379 successful grab
 2m17s - 13691-13750 successful grab

@@ -1,33 +1,33 @@
 # Project definitions (do not edit)
-Task: Fingers-Grasping
+Task: Rat9SideReach
 scorer: Parth
-date: Oct28
+date: Dec3
 
 # Project path (change when moving around)
-project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects\Fingers-Grasping-Parth-2019-10-28 #gitignore
+project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Rat9SideReach-Parth-2019-12-03
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects:
-    crop: 69, 246, 81, 214
+  C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects\Videos\rat9_side.mp4:
+    crop: 70, 298, 55, 206
 bodyparts:
-- finger1
-- finger2
-- finger3
-- finger4
+- bodypart1
+- bodypart2
+- bodypart3
+- objectA
 start: 0
 stop: 1
 numframes2pick: 20
 
 # Plotting configuration
 skeleton:
-- - finger1
-  - finger2
-- - finger3
-  - finger4
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
 skeleton_color: black
 pcutoff: 0.1
-dotsize: 3
+dotsize: 12
 alphavalue: 0.7
 colormap: jet
 
