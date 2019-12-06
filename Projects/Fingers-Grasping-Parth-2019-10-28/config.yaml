@@ -4,11 +4,11 @@ scorer: Parth
 date: Oct28
 
 # Project path (change when moving around)
-project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects\Fingers-Grasping-Parth-2019-10-28 #gitignore
+project_path: C:\Users\Parth\Desktop\DNN-Pose-Estimation\Projects\Fingers-Grasping-Parth-2019-10-28 #gitignore
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects:
+  C:\Users\Parth\Desktop\DNN-Pose-Estimation\Projects:
     crop: 69, 246, 81, 214
 bodyparts:
 - finger1

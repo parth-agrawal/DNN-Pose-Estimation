@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:\\Users\\parth\\Desktop\\DNN-Pose-Estimation\\Projects\\Rat9SideReach-Parth-2019-12-03\\dlc-models\\iteration-0\\Rat9SideReachDec3-trainset95shuffle1\\train\\snapshot-30000"
+all_model_checkpoint_paths: "C:\\Users\\parth\\Desktop\\DNN-Pose-Estimation\\Projects\\Rat9SideReach-Parth-2019-12-03\\dlc-models\\iteration-0\\Rat9SideReachDec3-trainset95shuffle1\\train\\snapshot-26000"
+all_model_checkpoint_paths: "C:\\Users\\parth\\Desktop\\DNN-Pose-Estimation\\Projects\\Rat9SideReach-Parth-2019-12-03\\dlc-models\\iteration-0\\Rat9SideReachDec3-trainset95shuffle1\\train\\snapshot-27000"
+all_model_checkpoint_paths: "C:\\Users\\parth\\Desktop\\DNN-Pose-Estimation\\Projects\\Rat9SideReach-Parth-2019-12-03\\dlc-models\\iteration-0\\Rat9SideReachDec3-trainset95shuffle1\\train\\snapshot-28000"
+all_model_checkpoint_paths: "C:\\Users\\parth\\Desktop\\DNN-Pose-Estimation\\Projects\\Rat9SideReach-Parth-2019-12-03\\dlc-models\\iteration-0\\Rat9SideReachDec3-trainset95shuffle1\\train\\snapshot-29000"
+all_model_checkpoint_paths: "C:\\Users\\parth\\Desktop\\DNN-Pose-Estimation\\Projects\\Rat9SideReach-Parth-2019-12-03\\dlc-models\\iteration-0\\Rat9SideReachDec3-trainset95shuffle1\\train\\snapshot-30000"
