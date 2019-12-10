@@ -13,7 +13,7 @@ dataset: training-datasets\iteration-0\UnaugmentedDataSet_Rat9SideReachDec3\Rat9
 dataset_type: default
 display_iters: 1000
 global_scale: 0.8
-init_weights: c:\users\parth\anaconda3\envs\dlc-windowscpu\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
+init_weights: c:\users\ec265\.conda\envs\dlc-windowscpu\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
 intermediate_supervision: false
 intermediate_supervision_layer: 12
 leftwidth: 400
@@ -38,7 +38,7 @@ multi_step:
 net_type: resnet_50
 num_joints: 3
 pos_dist_thresh: 17
-project_path: C:\Users\parth\Desktop\DNN-Pose-Estimation\Projects\Rat9SideReach-Parth-2019-12-03
+project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects\Rat9SideReach-Parth-2019-12-03
 rightwidth: 400
 save_iters: 50000
 scale_jitter_lo: 0.5
