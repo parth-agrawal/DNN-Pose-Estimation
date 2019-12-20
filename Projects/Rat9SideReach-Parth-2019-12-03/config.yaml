@@ -4,11 +4,11 @@ scorer: Parth
 date: Dec3
 
 # Project path (change when moving around)
-project_path: C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects\Rat9SideReach-Parth-2019-12-03
+project_path: C:\Users\Parth\Desktop\DNN-Pose-Estimation\Projects\Rat9SideReach-Parth-2019-12-03
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\ec265\Desktop\Parth\DNN-Pose-Estimation\Projects\Videos\rat9_side.mp4:
+  C:\Users\Parth\Desktop\DNN-Pose-Estimation\Projects\Videos\rat9_side.mp4:
     crop: 70, 298, 55, 206
 bodyparts:
 - flat
